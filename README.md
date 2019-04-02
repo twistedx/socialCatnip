@@ -6,11 +6,6 @@ Social</span><span class="primary-text text-size">Catip</span> is a
                         networks such as Twitter, Facebook, Google Plus, and Instagram on your behalf. We use relevant
                         social media marketing services to help businesses like yours grow and meet their goals.</p>
 
-                              <div class="carousel carousel-slider">
-        <a class="carousel-item" href="#one!"><img src="assets/images/cat-behind-grass.JPG"></a>
-        <a class="carousel-item" href="#two!"><img src="assets/images/cat-behind-grass-l.JPG"></a>
-    
-      </div>
 
       
 
