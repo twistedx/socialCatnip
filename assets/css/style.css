@@ -1,46 +1,74 @@
 .logo {
-    font-weight: 600;
+  font-weight: 600;
 }
-.nav-wrapper{
-    z-index: 1800;
+.nav-wrapper {
+  z-index: 1800;
 }
-.side-nav{
-    top: 64px;
-    z-index: -1;
+.side-nav {
+  top: 57px;
+  z-index: -1;
 }
 
-.info h5{
-    width:100%;
-    margin-top: 0;
-    padding-top: 1em;
+.info h5 {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 1em;
 }
 .info p {
-   margin-bottom: 0;
-   padding-bottom: 1em;
+  margin-bottom: 0;
+  padding-bottom: 1em;
 }
-.card-panel{
-    margin: 0;
+.card-panel {
+  margin: 0;
 }
-.learnMore{
-    margin-top:1em;
+.learnMore {
+  margin-top: 1em;
 }
-.formSubmit{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: auto !important;
-    margin-right: auto !important;
+.formSubmit {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-.checkBoxes{
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+.checkBoxes {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
-.middleCard-contact{
-    margin-top:0;
-    padding-top:1em;
-    margin-bottom: 2em;
+.middleCard-contact {
+  margin-top: 0;
+  padding-top: 1em;
+  margin-bottom: 2em;
 }
-.middleCard-contact h5{
-    margin-top:0;
-    margin-bottom: 1em;
+.middleCard-contact h5 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.ourServices {
+  margin-top: 15px;
+}
+.services {
+  display: block;
+  padding: 70px;
+  height: 100%;
+  /* margin: 5px; */
+  background-color: #eee;
+  border: 2px teal solid;
+}
+.services .p {
+  width: 100%;
+  height: 100%;
+}
+.borderB {
+  border-bottom: 1px solid #777;
+}
+@media (max-width: 768) {
+  body {
+    width: 100%;
+  }
+}
+@media(min-width:1300px){
+    body{
+        margin:0 auto;
 
+    }
 }
