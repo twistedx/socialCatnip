@@ -61,14 +61,117 @@
 .borderB {
   border-bottom: 1px solid #777;
 }
+#team {
+  width: 100%;
+}
+/* Testimonials  */
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.slide {
+  opacity: 0.3;
+}
+.slide2 {
+  opacity: 0.7;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.pagination li.active {
+  background-color: cornflowerblue;
+}
+
+/* Add a background color to the active dot/circle */
+.pagination > .active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+.upside_down {
+  margin-top: 1em;
+  width: 100%;
+  height: 100%;
+}
+.about-info {
+  width: 100%;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.vet p {
+  margin: 0;
+}
 @media (max-width: 768) {
   body {
     width: 100%;
   }
 }
-@media(min-width:1300px){
-    body{
-        margin:0 auto;
-
-    }
+@media (min-width: 1300px) {
+  body {
+    margin: 0 auto;
+  }
 }
