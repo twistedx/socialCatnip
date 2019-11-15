@@ -48,3 +48,7 @@ nav ul li a:hover {
     height: 64px;
     margin-left: 2vw;
   }
+
+  .sec-wrapper {
+      margin-top: 10vh;
+  }
