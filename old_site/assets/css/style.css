@@ -1,0 +1,197 @@
+.logo {
+  font-weight: 600;
+}
+
+body {
+  background-color: #eae7dc
+}
+.nav-wrapper {
+  background-color: #eae7dc;
+  z-index: 1800;
+}
+.small-logo {
+  height: 64px;
+  margin-left: 2vw;
+}
+.side-nav {
+  top: 57px;
+  z-index: -1;
+}
+
+.button-collapse{
+  color: #8e8d8a;
+}
+
+.info h5 {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 1em;
+}
+.info p {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+.card-panel {
+  margin: 0;
+}
+.learnMore {
+  margin-top: 1em;
+}
+.formSubmit {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.checkBoxes {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.middleCard-contact {
+  margin-top: 0;
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+.middleCard-contact h5 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.ourServices {
+  margin-top: 15px;
+}
+.services {
+  display: block;
+  padding: 70px;
+  height: 100%;
+  /* margin: 5px; */
+  background-color: #eee;
+  border: 2px  solid;
+}
+.services .p {
+  width: 100%;
+  height: 100%;
+}
+.borderB {
+  border-bottom: 1px solid #777;
+}
+#team {
+  width: 100%;
+}
+/* Testimonials  */
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.slide {
+  opacity: 0.3;
+}
+.slide2 {
+  opacity: 0.7;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.pagination li.active {
+  background-color: cornflowerblue;
+}
+
+/* Add a background color to the active dot/circle */
+.pagination > .active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+.upside_down {
+  margin-top: 1em;
+  width: 100%;
+  height: 100%;
+}
+.about-info {
+  width: 100%;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.vet p {
+  margin: 0;
+}
+
+@media (max-width: 600px){
+  .small-logo {
+    height: 57px;
+  }
+}
+
+@media (max-width: 768) {
+  body {
+    width: 100%;
+  }
+}
+@media (min-width: 1300px) {
+  body {
+    margin: 0 auto;
+  }
+}
