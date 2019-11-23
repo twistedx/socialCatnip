@@ -21,6 +21,10 @@ p {
   line-height: 2rem;
 }
 
+q {
+  color: #8e8d8a;
+}
+
 .sidenav-trigger {
   color: #8e8d8a;
 }
@@ -81,15 +85,21 @@ footer.page-footer {
   margin-right: 5vw;
 }
 
+#info-bar-email a {
+  color: #8e8d8a;
+  font-weight: 500;
+}
+
 #info-bar-social {
   margin-left: 5vw;
 }
 
-#info-bar-social ul {
+#info-bar-social ul{
   margin: 0;
+  height: 50px;
 }
 
-#info-bar-social img {
+#info-bar-social img, #info-bar-email img {
   width: 30px;
   height: 30px;
   margin: 10px;
@@ -97,4 +107,22 @@ footer.page-footer {
 
 #inline {
   display: inline;
+}
+
+.email-in-bar {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+#icon-explain img {
+  height: 80px;
+  width: 80px;
+  -webkit-filter: invert(52%) sepia(78%) saturate(4075%) hue-rotate(334deg) brightness(100%) contrast(82%);
+  filter: invert(82%) sepia(59%) saturate(2734%) hue-rotate(305deg) brightness(88%) contrast(107%);
+}
+
+#icon-explain img:hover {
+  -webkit-filter: invert(52%) sepia(78%) saturate(4075%) hue-rotate(334deg) brightness(100%) contrast(82%) drop-shadow(4px 4px 2px gray);
+  filter: invert(82%) sepia(59%) saturate(2734%) hue-rotate(305deg) brightness(88%) contrast(107%) drop-shadow(4px 4px 2px gray);
 }
