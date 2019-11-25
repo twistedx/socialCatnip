@@ -1,12 +1,25 @@
 .logo {
   font-weight: 600;
 }
+
+body {
+  background-color: #eae7dc
+}
 .nav-wrapper {
+  background-color: #eae7dc;
   z-index: 1800;
+}
+.small-logo {
+  height: 64px;
+  margin-left: 2vw;
 }
 .side-nav {
   top: 57px;
   z-index: -1;
+}
+
+.button-collapse{
+  color: #8e8d8a;
 }
 
 .info h5 {
@@ -52,7 +65,7 @@
   height: 100%;
   /* margin: 5px; */
   background-color: #eee;
-  border: 2px teal solid;
+  border: 2px  solid;
 }
 .services .p {
   width: 100%;
@@ -165,6 +178,13 @@ q {
 .vet p {
   margin: 0;
 }
+
+@media (max-width: 600px){
+  .small-logo {
+    height: 57px;
+  }
+}
+
 @media (max-width: 768) {
   body {
     width: 100%;

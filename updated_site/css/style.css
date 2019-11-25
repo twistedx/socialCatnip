@@ -1,0 +1,128 @@
+body {
+  background-color: #eae7dc;
+}
+nav ul a,
+nav .brand-logo {
+  color: #8e8d8a;
+}
+
+nav {
+  z-index: 1000;
+  background-color: #eae7dc;
+  position: sticky;
+  top: 0;
+}
+
+nav #logo {
+  width: 64px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+q {
+  color: #8e8d8a;
+}
+
+.sidenav-trigger {
+  color: #8e8d8a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav #logo {
+    width: 56px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.e85-text {
+  color: #e85a4f;
+}
+.btn-large, .btn-large:hover, .btn-large:visited {
+  background-color: #e98074;
+}
+
+#info-bar {
+  width: 100vw;
+  height: 50px;
+}
+
+#info-bar-email {
+  margin-right: 5vw;
+}
+
+#info-bar-email a {
+  color: #8e8d8a;
+  font-weight: 500;
+}
+
+#info-bar-social {
+  margin-left: 5vw;
+}
+
+#info-bar-social ul{
+  margin: 0;
+  height: 50px;
+}
+
+#info-bar-social img, #info-bar-email img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+#inline {
+  display: inline;
+}
+
+.email-in-bar {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+#icon-explain img {
+  height: 80px;
+  width: 80px;
+  -webkit-filter: invert(52%) sepia(78%) saturate(4075%) hue-rotate(334deg) brightness(100%) contrast(82%);
+  filter: invert(82%) sepia(59%) saturate(2734%) hue-rotate(305deg) brightness(88%) contrast(107%);
+}
+
+#icon-explain img:hover {
+  -webkit-filter: invert(52%) sepia(78%) saturate(4075%) hue-rotate(334deg) brightness(100%) contrast(82%) drop-shadow(4px 4px 2px gray);
+  filter: invert(82%) sepia(59%) saturate(2734%) hue-rotate(305deg) brightness(88%) contrast(107%) drop-shadow(4px 4px 2px gray);
+}
